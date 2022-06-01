@@ -8,10 +8,9 @@ const Career = () => {
     <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 		<section className="w-full leading-10">
             <h1 className='text-6xl font-bold'> Career </h1>
-			<p className="section-paragraph">
-				I have had the pleasure of working with multiple startups, designing and implementing both frontend and UI/UX.
-				<br />
-				The following list showcases my active and ongoing job positions.
+			<p className="section-paragraph pt-5">
+				I have had the pleasure of working with multiple startups, designing and implementing both frontend and UI/UX;
+				the following list of careers showcases my active and or ongoing job positions.
 			</p>
 
 			<div className="space-y-12 my-16">
