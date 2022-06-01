@@ -3,33 +3,33 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-			<section class="w-full">
+    <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section className="w-full">
         <h1 className='text-6xl font-bold'> Contact </h1>
-				<p class="section-paragraph pt-5 pb-10">Feel free to to contact me any time - Hit Me Up!</p>
+				<p className="section-paragraph pt-5 pb-10">Feel free to to contact me any time - Hit Me Up!</p>
 
-				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-					<div class="space-y-7">
+				<div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<div className="space-y-7">
 						<div>
-							<label class="text-white block mb-6 text-xl font-bold">Name</label>
-							<input class="w-full border border-input-border bg-input px-4 py-4" />
+							<label className="text-white block mb-6 text-xl font-bold">Name</label>
+							<input className="w-full border border-input-border bg-input px-4 py-4" />
 						</div>
 						<div>
-							<label class="text-white block mb-6 text-xl font-bold">Email</label>
-							<input type="email" class="w-full border border-input-border bg-input px-4 py-4" />
+							<label className="text-white block mb-6 text-xl font-bold">Email</label>
+							<input type="email" className="w-full border border-input-border bg-input px-4 py-4" />
 						</div>
 						<div>
-							<label class="text-white block mb-6 text-xl font-bold">Message</label>
-							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+							<label className="text-white block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" className="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
 						</div>
-						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+						<button className="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
 					</div>
 
-					<div class="mt-12">
-						<p class="text-secondary">+62 (877) 8876-3027</p>
-						<a href="mailto:mohammed.dwihandoko@gmail.com" class="text-secondary underline mt-3 block">mohammed.dwihandoko@gmail.com</a>
+					<div className="mt-12">
+						<p className="text-secondary">+62 (877) 8876-3027</p>
+						<a href="mailto:mohammed.dwihandoko@gmail.com" className="text-secondary underline mt-3 block">mohammed.dwihandoko@gmail.com</a>
 
-						<div class="flex mt-20 space-x-6">
+						<div className="flex mt-20 space-x-6">
             <a href="#!" className="mr-1 text-gray-100">
                         <svg
                         aria-hidden="true"
